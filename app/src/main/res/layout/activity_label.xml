@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.intelligent.newsday.activity.LabelActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/label_tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></android.support.v7.widget.Toolbar>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="标签"/>
+       <com.intelligent.newsday.ui.LabelFlowLayout
+           android:id="@+id/label_flow_layout"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_weight="3">
+       </com.intelligent.newsday.ui.LabelFlowLayout>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="标签"/>
+       <ListView
+           android:id="@+id/label_lv"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_weight="1"></ListView>
+
+   </LinearLayout>
+
+
+</LinearLayout>

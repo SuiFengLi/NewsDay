@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NewsDay</string>
+    <string name="lead_to_logo">开启新闻之旅</string>
+    <string name="info_message">资讯</string>
+    <string name="hot_topic">热点</string>
+    <string name="search">搜索</string>
+    <string name="share">分享</string>
+</resources>
